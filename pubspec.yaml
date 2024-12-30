@@ -1,0 +1,45 @@
+name: amena_s_application4
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.10+1
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  shared_preferences: ^2.3.0
+  connectivity_plus: ^6.0.4
+  responsive_grid_list: ^1.4.0
+  another_stepper: ^1.2.2
+  dotted_border: ^2.1.0
+  sizer: ^3.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+
+  fonts:
+    - family: DM Sans
+      fonts:
+        - asset: assets/fonts/DMSansMedium.ttf
+          weight: 500
+    - family: Century Gothic
+      fonts:
+        - asset: assets/fonts/CenturyGothicBold.ttf
+          weight: 700
+        - asset: assets/fonts/CenturyGothic.ttf
+          weight: 400
